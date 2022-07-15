@@ -1,0 +1,128 @@
+/**
+ * Live and Let's Fly main styles.
+ * 
+ * @package Live and Let's Fly
+ * @since Live and Let's Fly 1.0.0
+ */
+
+/* ==========================================================================
+    Table of Contents
+=============================================================================
+
+0. BoardingArea Misc.
+4. Header
+	4.1 Social Links
+5. Navigation
+6. Main Content (homepage, single)
+9. Footer
+
+========================================================================== */
+
+/* ==========================================================================
+    0. BoardingArea Misc.
+========================================================================== */
+
+/* Advertising */
+.liveandletsfly-above-content-ad, .div-gpt-ad-above-content { margin-top: 30px; }
+.liveandletsfly-below-content-ad, .div-gpt-ad-below-content { margin-bottom: 30px; }
+.archive .liveandletsfly-above-content-ad, .archive .div-gpt-ad-above-content { margin-bottom: 30px; }
+
+.post-ad {
+	background-color: #f9f9f9;
+	border: 1px solid #e3e3e3;
+	padding: 20px;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.liveandletsfly-in-content {
+	border-top: 1px solid rgba(0, 0, 0, 0.09);
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+}
+.liveandletsfly-in-content-ad, .div-gpt-ad-in-content {}
+
+/* Contact Form 7 */
+/* Contact */
+#wpcf7-f15248-p15249-o1 * {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#wpcf7-f15248-p15249-o1 input,
+#wpcf7-f15248-p15249-o1 textarea {
+	width: 100%;
+}
+#wpcf7-f15248-p15249-o1 input[type="text"] {
+	color: initial;
+	float: none;
+	height: auto;
+	margin: 0;
+	text-indent: 0;
+}
+#wpcf7-f15248-p15249-o1 .wpcf7-form p:last-child,
+#wpcf7-f15248-p15249-o1 .wpcf7-form p:last-of-type {
+	margin-bottom: 0;
+}
+
+/* ==========================================================================
+    4. Header
+========================================================================== */
+
+/* ==========================================================================
+    4.1 Social Links
+========================================================================== */
+
+.footer-links .fa:after {
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+.footer-links .social-link-text {
+	margin-left: 10px;
+}
+
+/* ==========================================================================
+    5. Navigation
+========================================================================== */
+
+.main-navigation {
+	background-color: #fff !important;
+	border-bottom: solid 1px #e3e3e3 !important;
+}
+
+/* ==========================================================================
+    6. Main Content (homepage, single)
+========================================================================== */
+
+/* Single */
+.gallery-icon {
+	background: none !important;
+	border: none !important;
+	padding: 0px !important;
+}
+
+/* Social Share Buttons */
+.share-buttons {}
+.social-buttons {
+	background: #fff;
+	display: inline-block;
+	padding: 0 5px;
+}
+.social-btn {
+	padding: 0 2.5px;
+}
+.social-btn a:before, .social-btn a:after {
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+
+/* ==========================================================================
+    9. Footer
+========================================================================== */
+
+.back-to-top { z-index: 9999; }
